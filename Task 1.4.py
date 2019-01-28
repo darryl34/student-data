@@ -33,7 +33,6 @@ def delStudent():
 delStudent()
 
 namePrompt = str(input("Please input a student's name: "))
-namePrompt = namePrompt.title()
 for i in range(count):
     data = nameAndEmail[i].split('#')
     if namePrompt in data[0]:
